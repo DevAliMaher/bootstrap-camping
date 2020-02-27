@@ -1,0 +1,46 @@
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar .navbar-brand h3 {
+  font-weight: 100;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+}
+.navbar .nav-item .nav-link:hover {
+  transition: border 0.2s;
+  border-bottom: 1px solid #eee;
+}
+
+#showCase {
+  min-height: 46rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#showCase h1 {
+  font-family: "Questrial", sans-serif;
+}
+#showCase #booking {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .navbar .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+
+  #showCase {
+    min-height: 36rem;
+    font-size: 4rem;
+  }
+}
+
